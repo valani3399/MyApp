@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4081"
+    android:gravity="center"
+    android:layout_margin="50dp">
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/et_gmail"
+        android:layout_below="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gmail"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_below="@+id/et_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="@color/colorPrimaryDark"/>
+     </RelativeLayout>
+    </FrameLayout>
